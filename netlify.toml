@@ -1,9 +1,2 @@
-[[redirects]]
-  from = "/go/:asin"
-  to = "/.netlify/functions/go?asin=:asin"
-  status = 200
-
-[[redirects]]
-  from = "/admin"
-  to = "/admin.html"
-  status = 200
+[build]
+  publish = "public"
